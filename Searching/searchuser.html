@@ -1,0 +1,134 @@
+<meta charset="utf-8">
+<div id="search"></div>
+<html>
+<style>
+@import url(search.css);
+</style>
+<head>
+  <title>ระบบฝึกงาน</title>
+</head>
+
+
+
+<body>
+  <div id="content">
+  <header>
+  <nav id="menu">
+  <br><br><br><br><br><br><br><br><br><br>
+  <ul>
+    <li><a href="../index.html">HOME</a></li>
+    <li><a href="../Login/login.html">LOGIN</a></li>
+    <li><a href="searchuser.html">SEARCH</a></li>
+    <li><a href="">REPORT</a></li>
+    <li><a href="Visualize/visualize.html">VISUALIZE</a></li>
+  </ul>
+  </header>
+
+  <main>
+	  <body>
+      <form action="" method="post">
+      <h2>Company Search</h2>
+      <ul>
+        <li><label for="form-name">Name:</label> <input type="text" name="username" id="form-name" class="textinput"></li>
+        <li><label for="form-company-year">Year:</label> <input type="number" name="company-year" id="form-company-year" class="textinput" min="2558" max="2564"></li>
+        <html>
+<form class="p-3">
+<div class="form-group">
+  <label for="name">Name</label>
+  <input type="text" class="form-control" id="name" placeholder="Joe Smith">
+</div>
+
+<div class="form-group1">
+  <label for="seeAnotherFieldGroup">Income Type</label>
+  <select class="form-group1" id="seeAnotherFieldGroup">
+        <option value="0">None</option>
+        <option value="monthly">Monthy</option>
+        <option value="daily">Daily</option>
+  </select>
+</div>
+
+
+ <div class="form-group1" id="monthly_income">
+    <label for="otherField1">Input min-max Monthly Income</label>
+    <input type="text" class="form-control w-100" id="mon_st"> - 
+    <input type="text" class="form-control w-100" id="mon_end"><br>
+ </div>
+ 
+
+  <div class="form-group1" id="Daily_Income">
+     <label for="otherField1">Input min-max Daily Income</label>
+     <input type="text" class="form-control w-100" id="d_st"> - 
+     <input type="text" class="form-control w-100" id="d_end"><br>
+  </div>
+ 
+
+<div class="form-group">
+  <label for="comments">Comments/Questions</label>
+  <textarea class="form-control" id="comments" rows="3"></textarea>
+</div>
+
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+        <li><label for="sizes">Size:</label>
+          <select name="size" id="sizes">
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+          </select> <em>Sizes reflect standard US men's sizes</em>
+        </li>
+        <li><label for="colors">Sneaker Color:</label>
+          <fieldset id="colors">
+            <legend>Color</legend>
+            <ul>
+              <li><label><input type="radio" name="color" value="red"> Red</label> </li>
+              <li><label><input type="radio" name="color" value="blue"> Blue</label> </li>
+              <li><label><input type="radio" name="color" value="black"> Black</label> </li>
+              <li><label><input type="radio" name="color" value="silver"> Silver</label> </li>
+            </ul>
+          </fieldset>
+        </li>
+  
+        <li><label for="features">Add-on Features:</label>
+          <fieldset id="features">
+            <legend>Feature</legend>
+            <ul>
+              <li><label><input type="checkbox" name="feature" value="laces"> Sparkley laces</label></li>
+              <li><label><input type="checkbox" name="feature" value="logo" checked> Metallic logo</label></li>
+              <li><label><input type="checkbox" name="feature" value="heels"> Light-up heels</label></li>
+              <li><label><input type="checkbox" name="feature" value="mp3"> MP3-enabled</label></li>
+            </ul>
+         </fieldset>
+        </li>
+        <li class="buttons"><input type="submit" value="ENTER"></li>
+  
+      </ul>
+  
+  </form>
+  </body>
+  </main>
+
+  <aside>
+    <h5>ติดต่อสอบถามข้อมูลเพิ่มเติม</h5>
+    <p><span class="more">ผศ.ดร.ภาคภูมิ เพ็ชรประดับ</p>
+    <p><span class="more">email : parkpoom.phetpradap@cmu.ac.th</p>
+    <p><span class="more">คุณมินตรา หาญกล้า</p>
+    <p><span class="more">email : mintra.hankla@cmu.ac.th</p>
+    <p><span class="more">Tel : 0-5394-3316(คุณมินตรา)</p>
+    <p><span class="more">งานบริการการศึกษาและพัฒนาคุณภาพนักศึกษา คณะวิทยาศาสตร์ มหาวิทยาลัยเชียงใหม่</p>
+  </aside>
+
+  <footer>
+  <p>Science,Chiang Mai University</p>
+  </footer>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+<script src="incomeform.js"></script>
+</html> 
